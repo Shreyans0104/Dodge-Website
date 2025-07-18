@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #1a1a1a, #000);
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .navbar {
+    border-bottom: 2px solid #ff3333;
+  }
+
+  header {
+    background: linear-gradient(135deg, #1a1a1a, #000);
+    border-bottom: 2px solid #ff3333;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .img-fluid {
+    border: 3px solid #ff3333;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .img-fluid:hover {
+    transform: scale(1.05);
+  }
+
+  h3 {
+    color: #ff3333;
+  }
+
+  .form-label {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .form-control, .form-select {
+    background: rgba(240, 235, 235, 0.2);
+    color: #ffffff;
+    border: 1px solid #ff3333;
+  }
+
+  .form-control:focus, .form-select:focus {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 5px #ff3333;
+    border-color: #ff3333;
+  }
+
+  .btn-danger {
+    background: #ff3333;
+    border: none;
+    transition: background 0.3s ease;
+  }
+
+  .btn-danger:hover {
+    background: #cc0000;
+  }
+
+  footer {
+    background: linear-gradient(135deg, #1a1a1a, #000);
+    border-top: 2px solid #ff3333;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .img-fluid {
+      height: auto;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+  }

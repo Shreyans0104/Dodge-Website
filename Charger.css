@@ -1,0 +1,264 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(135deg, #000, #1a1a1a);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.navbar-brand img {
+  filter: drop-shadow(0 4px 4px rgba(255, 0, 0, 0.5));
+}
+.nav-link {
+  font-weight: bold;
+  color: #fff !important;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #dc3545 !important;
+  text-decoration: underline;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28175, 0, 0, 1%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+/* Video Section */
+#video video {
+  border: 8px solid rgba(220, 53, 69, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Information Section */
+#info {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+#info h2 {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Performance Section */
+#performance .animated-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #dc3545;
+}
+#performance h4 {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Gallery Section */
+#gallery {
+  padding: 30px;
+}
+#gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+#gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Specifications Section */
+#specs {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #dc3545;
+}
+#specs h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #dc3545; /* Red for headings */
+  text-align: center;
+}
+#specs h4 {
+  color: #dc3545;
+  font-weight: bold;
+}
+#specs .list-group-item {
+  font-size: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
+/* Buy Section */
+#buy {
+  background: linear-gradient(135deg, #1a1a1a, #000);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 4px solid #dc3545;
+}
+#buy .btn {
+  font-size: 1.25rem;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#buy .btn:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer Styling */
+footer {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 50px 0;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+footer h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer ul li a:hover {
+  color: #dc3545;
+}
+
+footer .social-icons a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #dc3545;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+
+/* General Section Styling */
+section {
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Overview Section */
+#info {
+  background: linear-gradient(135deg, #f9f9f9, #ececec); /* Light gradient background */
+  color: #333; /* Dark text for readability */
+}
+
+#info h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #dc3545; /* Red for headings */
+  text-transform: uppercase;
+}
+
+#info p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-family: "Arial", sans-serif;
+  text-align: justify;
+}
+
+/* Performance Section */
+#performance {
+  background: linear-gradient(135deg, #ffffff, #f1f1f1);
+  color: #111; /* Darker text for readability */
+}
+
+#performance h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #dc3545; /* Red for headings */
+  text-align: center;
+}
+
+#performance .animated-number {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #323030; 
+  font-family: "Courier New", monospace; /* Monospace font for numbers */
+  margin-top: 10px;
+}
+
+#performance h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #555; /* Subtle gray */
+  margin-top: 20px;
+}
+
+/* Gallery Section */
+#gallery {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff); /* Subtle gradient */
+  color: #444; /* Neutral text color */
+}
+
+#gallery h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #dc3545; /* Red for headings */
+  text-align: center;
+}
+
+#gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around images */
+}
+
+#gallery .col-md-4 {
+  margin-bottom: 20px;
+}

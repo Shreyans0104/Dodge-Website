@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+Charger.mp4 filter=lfs diff=lfs merge=lfs -text
+Daytona.mp4 filter=lfs diff=lfs merge=lfs -text
+Challenger.mp4 filter=lfs diff=lfs merge=lfs -text
+background.mp4 filter=lfs diff=lfs merge=lfs -text
